@@ -1,0 +1,11 @@
+.hola{
+    width: 50rem;
+    height: 3rem;
+    background-color:rgb(21, 21, 97);
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 5rem;
+}

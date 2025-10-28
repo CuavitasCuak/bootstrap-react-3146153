@@ -3,10 +3,12 @@ import "./NavBar.css"
 
 export const NavBar = () => {
   return (
-    <div>
-        <img src="" alt="" />
-        <h2>Extensions</h2>
+    <div className='hola'>
+        
+        <h2>🦮Extensions</h2>
         <button className= "btn-mode" >🌞</button>
+        
+        
 
    
     </div>
