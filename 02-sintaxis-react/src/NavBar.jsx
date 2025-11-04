@@ -5,6 +5,7 @@ export const NavBar = () => {
   return (
     <div className='hola'>
         
+        
         <h2>🦮Extensions</h2>
         <button className= "btn-mode" >🌞</button>
         
