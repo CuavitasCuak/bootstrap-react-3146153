@@ -1,15 +1,17 @@
 import "./ExtensionCard.css"
 
-export const ExtensionCard = () => {
+export const ExtensionCard = ({cardTittle, cardImage, cardDescription}) => {
   return (
     <>
         <div className="tarjeta">
-            <img className="image" src="./public/camara.png" alt="" />
+            <img className="image" src={cardImage} alt="" />
             <div className="texto">
-                <h1 className="titulo"> DevLens </h1>
-                <p className="parrafo"> Quickly inspect page layouts and visualize element boundaries. </p> 
+                <h1 className="titulo"> {cardTittle} </h1>
+                <p className="parrafo"> {cardDescription} </p> 
+                <button className="Button">Remove</button>
+                <p className="check">👍</p>
             </div>
-                <h1 className="abajo">Remove</h1>
+                
             
         
         </div>
