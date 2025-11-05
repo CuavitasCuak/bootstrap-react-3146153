@@ -1,7 +1,7 @@
 .tarjeta{
     display: flex;
     margin-top: 5rem;
-    width: 100%;
+    width:25rem;
     height: 10rem;
     background-color: rgb(1, 11, 44);
     border-radius: 3%;
