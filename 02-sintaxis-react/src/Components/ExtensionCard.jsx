@@ -1,4 +1,6 @@
+
 import "./ExtensionCard.css"
+
 
 export const ExtensionCard = ({cardTittle, cardImage, cardDescription}) => {
   return (

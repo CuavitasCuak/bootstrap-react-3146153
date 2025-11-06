@@ -2,6 +2,7 @@ import React  from 'react';
 import './App.css'
 import { NavBar } from './NavBar';
 import { ExtensionCard } from './Components/ExtensionCard';
+import { LoginForm } from './Components/LoginForm'; 
 
 export const App = ()=> {
   return(
@@ -66,10 +67,12 @@ export const App = ()=> {
           cardDescription="Instantly extracts color palettes from any webpage." 
           />
          
+        
   
     </div>
 
     <h1>React+bootstrap</h1>
+    <LoginForm/>
     
     </>
    
