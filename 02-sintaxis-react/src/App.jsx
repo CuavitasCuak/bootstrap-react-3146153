@@ -3,6 +3,7 @@ import './App.css'
 import { NavBar } from './NavBar';
 import { ExtensionCard } from './Components/ExtensionCard';
 import { LoginForm } from './Components/LoginForm'; 
+import { ProductCard } from './Components/ProductCard';
 
 export const App = ()=> {
   return(
@@ -73,6 +74,8 @@ export const App = ()=> {
 
     <h1>React+bootstrap</h1>
     <LoginForm/>
+
+    <ProductCard/>
     
     </>
    
