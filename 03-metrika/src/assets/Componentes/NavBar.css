@@ -1,0 +1,14 @@
+
+
+.iconos{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    gap: 1rem;
+}
+.col{
+
+    width: 3%;
+    height: auto;
+
+}
