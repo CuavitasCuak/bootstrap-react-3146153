@@ -6,7 +6,11 @@ export const App = ()=> {
 
     <>
   
-                <NavBar/>
+      <NavBar/>
+      <Cuadros/>
+                  
+       
+      
                 
            
 

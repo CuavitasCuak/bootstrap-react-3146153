@@ -3,12 +3,12 @@
 .iconos{
     display: flex;
     width: 100%;
-    justify-content: end;
-    gap: 1rem;
+    justify-content: flex-end;
+    gap: 10px;
 }
-.col{
+.un{
 
-    width: 3%;
+    width: 2%;
     height: auto;
 
 }
