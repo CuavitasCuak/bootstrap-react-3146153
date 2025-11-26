@@ -17,35 +17,45 @@ export const NavBar = () => {
       <span className="navbar-toggler-icon"></span>
 
     </button>
-    <div className="collapse navbar-collapse " id="navbarNav">
+    <div className="collapse navbar-collapse" id="navbarNav">
 
-      <ul className="navbar-nav">
+      <ul className="navbar-nav ms-auto ">
         
-        <li className="nav-item">
+        <li className="nav-item inicio">
 
           <a className="nav-link active " aria-current="page" href="#">Inicio</a>
        
         </li>
       
 
-        <li className="nav-item">
+        <li className="nav-item comic">
 
           <a className="nav-link" href="#">Cómic</a>
 
         </li>
 
-        <li className="nav-item">
+        <li className="nav-item Tienda">
 
           <a className="nav-link" href="#">Tienda</a>
 
         </li>
 
-        <li className="nav-item">
+        <li 
+        
+        
+        
+        
+        className="btn btn-danger nav-item  iniciar sesion">
 
-          <a className="nav-link" href="true">Iniciar sesión</a>
+          <a st className="nav-link" href="true">Iniciar sesión</a>
 
         </li>
       </ul>
+
+    <div className="Cuenta">
+        <img className='rounded' src="./Cuenta.png" alt="Cuenta"  style={{width:"4rem"}}/>
+      </div>
+
     </div>
   </div>
 </nav>
