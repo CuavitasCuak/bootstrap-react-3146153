@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Logo = () => {
   return (
-    <section style={{ padding: '5rem 0', minHeight: '900px', position: 'relative' }}>
+    <section style={{ padding: '2rem 0', minHeight: '900px', position: 'relative' }}>
       <div className="container" style={{ width: '90%', maxWidth: '1400px', margin: '0 auto' }}>
         <div className="row" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 
@@ -18,8 +18,8 @@ export const Logo = () => {
             <div style={{ border: '3px solid #666', borderRadius: '50%', width: '330px', height: '330px', display: 'flex', justifyContent: 'center', alignItems: 'center', overflow: 'hidden' }}>
               <img src="./logooo.png" alt="" style={{ width: '80%' }} />
             </div>
-            <div className="d-none d-md-block"
-              style={{ position: 'absolute', top: '30%', left: '-10%', width: '240px', height: '2px', backgroundColor: '#666' }}>
+            <div className="d-none d-lg-block "
+              style={{ position: 'absolute', top: '30%', left: '1%', width: '150px', height: '2px', backgroundColor: '#666' }}>
             </div>
 
             <div className="d-none d-md-block"
